@@ -74,6 +74,7 @@ public class GlobalOptionGroup extends OptionGroup
 				optionGroup.addOptionPane(pane);
 			}
 			addGroup(optionGroup);
+			addGroup(optionGroup);
 		}
 	} // }}}
 	
