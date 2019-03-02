@@ -72,6 +72,8 @@ public class GlobalOptionGroup extends OptionGroup
 			for (String pane : panes)
 			{
 				optionGroup.addOptionPane(pane);
+							addGroup(optionGroup);
+
 			}
 			addGroup(optionGroup);
 			addGroup(optionGroup);
