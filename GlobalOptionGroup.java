@@ -5,6 +5,7 @@
  * :folding=explicit:
  *
  * Copyright (C) 1998, 2003 Slava Pestov
+ 
  * Portions copyright (C) 1999 mike dillon
  * Copyright (C) 2006 Alan Ezust
  *
