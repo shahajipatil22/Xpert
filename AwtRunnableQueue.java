@@ -60,6 +60,7 @@ public enum AwtRunnableQueue
 			awtQueueStarted = true;
 		}
 		queueAWTRunner(false);
+		queueAWTRunner(false);
 	} //}}}
 
 
