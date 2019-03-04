@@ -2,8 +2,9 @@
  * AwtRunnableQueue.java - Queue for task to run in the Event Dispatch Thread
  * :tabSize=4:indentSize=4:noTabs=false:
  * :folding=explicit:collapseFolds=1: * 
- * Copyright (C) 2012 Thomas Meyer
+ * Copyright (C) 2012 Thomas Meye
  *
+ 
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
  * as published by the Free Software Foundation; either version 2
