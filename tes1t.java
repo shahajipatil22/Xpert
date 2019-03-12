@@ -22,6 +22,13 @@ public class FileDemo2 {
                 // prints  
                 System.out.print(path + " Exists? " + bool);  
             }  
+            path = file2.getAbsolutePath();  
+            System.out.println(bool);  
+            // if file exists  
+            if (bool) {  
+                // prints  
+                System.out.print(path + " Exists? " + bool);  
+            }  
         } catch (Exception e) {  
             // if any error occurs  
             e.printStackTrace();  
