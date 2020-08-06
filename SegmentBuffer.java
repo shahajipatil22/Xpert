@@ -43,6 +43,21 @@ public class SegmentBuffer extends Segment
 		count++;
 	} //}}}
 
+ private enum LoginErrorCode{
+
+   EMAIL_OR_PASSWORD_INCORRECT("101"),
+   EMAIL_INCORRECT("102");
+
+    private final String code;
+
+    LoginErrorCode(String code){
+      this.code=code;
+    }
+
+    public String getCode(){
+      return code;
+    }
+  }
 	//{{{ append() method
 	public void append(char[] text, int off, int len)
 	{
